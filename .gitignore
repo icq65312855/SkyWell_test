@@ -1,0 +1,12 @@
+*.iml
+.idea
+target
+classes
+bower_components
+node_modules
+*.versionsBackup
+version.txt
+version.json
+npm-debug.log
+src/generated
+*/package-lock.json
