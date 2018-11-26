@@ -1,3 +1,5 @@
+import printer.ASCIITablePrinter;
+import printer.Table;
 import test.ASCIITable;
 
 public class Main {
@@ -11,6 +13,10 @@ public class Main {
             {"3", "John", "0.00", "321.00", "active"}
         };
 
+        System.out.println("OLD");
         ASCIITable.getInstance().printTable(HEADER, data);
+        System.out.println("NEW");
+        ASCIITablePrinter.getInstance().printTable(HEADER, data);
+
     }
 }
